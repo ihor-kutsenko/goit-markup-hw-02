@@ -17,7 +17,7 @@
     <header class="page-header">
       <nav class="navigation">
         <a class="logo-header link" lang="en" href=""
-          ><span class="first-part-logo">Web</span> Studio</a
+          ><span class="first-part-logo">Web</span>Studio</a
         >
 
         <ul class="nav-list list">
@@ -25,7 +25,7 @@
             <a class="nav-list-link link" href="./index.html">Студия</a>
           </li>
           <li class="nav-list-item">
-            <a class="nav-list-link link" href="">Портфолио</a>
+            <a class="nav-list-link link current" href="">Портфолио</a>
           </li>
           <li class="nav-list-item">
             <a class="nav-list-link link" href="">Контакты</a>
@@ -34,12 +34,12 @@
       </nav>
       <ul class="main-contact list">
         <li class="main-contact-list">
-          <a class="main-contact-mail link" href="mailto:info@devstudio.com"
+          <a class="main-contact-link link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="main-contact-number link" href="tel:+380961111111"
+          <a class="main-contact-link link" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
         </li>
@@ -47,18 +47,28 @@
     </header>
 
     <main>
-      <section>
+      <section class="filter">
         <h1 hidden>Проекты</h1>
-        <ul class="list">
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="filter-list list">
+          <li class="filter-list-item">
+            <button class="filter-btn" type="button">Все</button>
+          </li>
+          <li class="filter-list-item">
+            <button class="filter-btn" type="button">Веб-сайты</button>
+          </li>
+          <li class="filter-list-item">
+            <button class="filter-btn" type="button">Приложения</button>
+          </li>
+          <li class="filter-list-item">
+            <button class="filter-btn" type="button">Дизайн</button>
+          </li>
+          <li class="filter-list-item">
+            <button class="filter-btn" type="button">Маркетинг</button>
+          </li>
         </ul>
 
-        <ul class="list">
-          <li>
+        <ul class="projects-list list">
+          <li class="projects-list-item">
             <a class="link" href="">
               <img
                 src="./images/project1.jpg"
@@ -66,11 +76,11 @@
                 width="370"
                 height="294"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="projects-tittle">Технокряк</h2>
+              <p class="projects-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="projects-list-item">
             <a class="link" href="">
               <img
                 src="./images/project2.jpg"
@@ -78,11 +88,13 @@
                 width="370"
                 height="294"
               />
-              <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+              <h2 class="projects-tittle">
+                Постер <span lang="en">New Orlean vs Golden Star</span>
+              </h2>
+              <p class="projects-text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="projects-list-item">
             <a class="link" href="">
               <img
                 src="./images/project3.jpg"
@@ -90,11 +102,13 @@
                 width="370"
                 height="294"
               />
-              <h2>Ресторан <span lang="en">Seafood</span></h2>
-              <p>Приложение</p>
+              <h2 class="projects-tittle">
+                Ресторан <span lang="en">Seafood</span>
+              </h2>
+              <p class="projects-text">Приложение</p>
             </a>
           </li>
-          <li>
+          <li class="projects-list-item">
             <a class="link" href="">
               <img
                 src="./images/project4.jpg"
@@ -102,11 +116,13 @@
                 width="370"
                 height="294"
               />
-              <h2>Проект <span lang="en">Prime</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="projects-tittle">
+                Проект <span lang="en">Prime</span>
+              </h2>
+              <p class="projects-text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="projects-list-item">
             <a class="link" href="">
               <img
                 src="./images/project5.jpg"
@@ -114,11 +130,13 @@
                 width="370"
                 height="294"
               />
-              <h2>Проект <span lang="en">Boxes</span></h2>
-              <p>Приложение</p>
+              <h2 class="projects-tittle">
+                Проект <span lang="en">Boxes</span>
+              </h2>
+              <p class="projects-text">Приложение</p>
             </a>
           </li>
-          <li>
+          <li class="projects-list-item">
             <a class="link" href="">
               <img
                 src="./images/project6.jpg"
@@ -126,11 +144,13 @@
                 width="370"
                 height="294"
               />
-              <h2 lang="en">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="projects-tittle" lang="en">
+                Inspiration has no Borders
+              </h2>
+              <p class="projects-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="projects-list-item">
             <a class="link" href="">
               <img
                 src="./images/project7.jpg"
@@ -138,11 +158,13 @@
                 width="370"
                 height="294"
               />
-              <h2>Издание <span lang="en">Limited Edition</span></h2>
-              <p>Дизайн</p>
+              <h2 class="projects-tittle">
+                Издание <span lang="en">Limited Edition</span>
+              </h2>
+              <p class="projects-text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="projects-list-item">
             <a class="link" href="">
               <img
                 src="./images/project8.jpg"
@@ -150,11 +172,11 @@
                 width="370"
                 height="294"
               />
-              <h2>Проект <span>LAB</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="projects-tittle">Проект <span>LAB</span></h2>
+              <p class="projects-text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="projects-list-item">
             <a class="link" href="">
               <img
                 src="./images/project9.jpg"
@@ -162,8 +184,8 @@
                 width="370"
                 height="294"
               />
-              <h2 lang="en">Growing Business</h2>
-              <p>Приложение</p>
+              <h2 class="projects-tittle" lang="en">Growing Business</h2>
+              <p class="projects-text">Приложение</p>
             </a>
           </li>
         </ul>
@@ -174,11 +196,11 @@
       <a class="logo-footer link" href="" lang="en"
         ><span class="first-part-logo">Web</span>Studio</a
       >
-      <address class="address-contact">
+      <address>
         <ul class="contact list">
-          <li class="contact-list">
+          <li class="contact-list-item">
             <a
-              class="contact-list-address link"
+              class="contact-list-adress link"
               href=""
               target="_blank"
               rel="noopener noreferer"
@@ -187,14 +209,14 @@
             </a>
           </li>
 
-          <li class="contact-list">
-            <a class="contact-list-mail link" href="mailto:info@example.com"
+          <li class="contact-list-item">
+            <a class="contact-list-link link" href="mailto:info@example.com"
               >info@example.com</a
             >
           </li>
 
-          <li class="contact-list">
-            <a class="contact-list-number link" href="tel:+380991111111"
+          <li class="contact-list-item">
+            <a class="contact-list-link link" href="tel:+380991111111"
               >+38 099 111 11 11</a
             >
           </li>

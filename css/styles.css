@@ -1,12 +1,23 @@
 :root {
   --primary-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
+  --third-text-color: #ffffff;
+  --logo-header-text-color: #000000;
+  --logo-footer-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --button-hover-background-color: #188ce8;
+  --main-background-color: #2f303a;
+  --primary-background-color: #f5f4fa;
+  --filter-background-color-: #f5f4fa;
 }
 
 body {
   font-family: var(--primary-font-family);
+  font-style: normal;
   color: var(--primary-text-color);
+  background-color: var(--third-text-color);
 }
 
 .link {
@@ -15,3 +26,212 @@ body {
 .list {
   list-style: none;
 }
+
+/*Start Header  */
+.logo-header {
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-header-text-color);
+}
+
+.first-part-logo {
+  color: var(--accent-color);
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--accent-color);
+}
+
+.main-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.main-contact-link:hover,
+.main-contact-link:focus {
+  color: var(--accent-color);
+}
+/* End Header */
+
+/*Start Hero */
+.hero {
+  background-color: var(--main-background-color);
+}
+
+.main-tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--third-text-color);
+}
+
+.modal-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--button-hover-background-color);
+}
+/* End Hero */
+
+/* Start specifics */
+.specifics-tittle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.specifics-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* End specifics */
+
+/* Start what we do */
+.tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* End what we do */
+
+/* Start our team */
+.employees-section {
+  background-color: var(--filter-background-color-);
+}
+
+.employees-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.employees-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* End our team */
+
+/*start footer */
+.page-footer {
+  background-color: var(--main-background-color);
+}
+
+.logo-footer {
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-footer-text-color);
+}
+
+.contact-list-item > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contact-list-adress {
+  color: var(--third-text-color);
+}
+
+.contact-list-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: var(--accent-color);
+}
+/* end footer */
+
+/* START PAGE PORTFOLIO */
+
+.filter-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--primary-text-color);
+  background-color: var(--filter-background-color-);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+}
+.projects-tittle {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.projects-text {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* END AGE PORTFOLIO */
